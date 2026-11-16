@@ -1,0 +1,2 @@
+# Custom Snort rule on the pfSense LAN interface (used to test the pipeline end to end)
+alert icmp any any -> 192.168.1.0/24 any (msg:"KALI ICMP TEST"; sid:1000001; rev:1;)
